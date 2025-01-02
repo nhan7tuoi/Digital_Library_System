@@ -1,0 +1,22 @@
+# Loại bỏ các tệp tạm thời của hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Loại bỏ thư mục node_modules
+node_modules/
+
+# Loại bỏ các tệp log
+*.log
+
+# Loại bỏ các tệp liên quan đến IDE
+.idea/
+.vscode/
+
+# Loại bỏ các tệp bí mật
+json-key/
+.env
+.secret
+
+# Loại bỏ các tệp build
+/build/
+dist/

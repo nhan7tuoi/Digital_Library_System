@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  font-family: sans-serif;
+}
+/* Ẩn thanh cuộn trên tất cả các trình duyệt */
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari và các trình duyệt dựa trên WebKit */
+}
+
+.custom-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-img {
+  background-image: url('../images/Login/thuvienIUH.jpg');
+  background-size: cover;
+}
+.h-screen {
+  height: auto !important; /* Cấm chiều cao cố định */
+}

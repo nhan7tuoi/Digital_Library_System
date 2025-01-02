@@ -1,0 +1,32 @@
+.bg-blurred {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .bg-blurred::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../assets//images//thuvienIUH.jpg'); 
+    background-size: contain;
+    background-position: center;
+    filter: blur(0px); 
+    z-index: 0;
+  }
+  
+  .card-container {
+    position: relative;
+    z-index: 1; 
+  }
+
+  .logo {
+    width: 300px;   
+    height: 150px;   
+    object-fit: contain; 
+  }
+  
+  
